@@ -1,0 +1,42 @@
+{
+    "employees":[
+        {
+            "id":1,
+            "fullname":"arun",
+            "contactpreference":"phone",
+            "email":"arun@gmail.com",
+            "phone":"408-758-2292",
+            "skills":[
+                {
+                    "skillName": "Java",
+                    "experience":6,
+                    "proficency":"beginner"
+                },
+                {
+                    "skillName": "Java",
+                    "experience":6,
+                    "proficency":"beginner"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "fullname":"arun challa",
+            "contactpreference":"Email",
+            "email":"arunchalla@gmail.com",
+            "phone":"408-758-2592",
+            "skills":[
+                {
+                    "skillName": "Angular",
+                    "experience":3,
+                    "proficency":"Intermediate"
+                },
+                {
+                    "skillName": "C#",
+                    "experience":1,
+                    "proficency":"beginner"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+<!-- <div>
+  <button mat-button>Click Me!</button>
+  <button mat-raised-button>Raised</button>
+  <button mat-flat-button>flat</button>
+  <button mat-stroked-button>stroked</button>
+</div>
+
+<div>
+  <button mat-icon-button>Icon</button>
+  <button mat-fab>Icon</button>
+  <button mat-mini-fab>Icon</button>
+</div>
+
+<div>
+  <mat-button-toggle>Toggle</mat-button-toggle>
+</div> -->
+
+<div class=" table-responsive">
+  <table class="table table-bordered" *ngIf = "employees && employees.length">
+    <thead>
+      <tr class="bg-info">
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Contact Preferense</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let employee of employees ">
+      <td>{{employee.fullname}}</td>
+      <td>{{employee.email}}</td>
+      <td>{{employee.phone}}</td>
+      <td>{{employee.contactpreference}}</td>
+      <td><button class="btn btn-sm btn-danger " (click)="editEmployee(employee.id)">Editable</button></td>
+    </tbody>
+  </table>
+
+</div>
+
+
